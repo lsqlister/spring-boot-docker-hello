@@ -1,4 +1,4 @@
-FROM frolvlad/alpine-oraclejdk8:slim
+FROM java:8
 VOLUME /tmp
 ADD spring-boot-docker-hello-1.0.0.jar app.jar
 #RUN bash -c 'touch /app.jar'
